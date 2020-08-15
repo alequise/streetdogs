@@ -1,0 +1,768 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+
+@font-face{
+    font-family: YorkshireBrushScript;
+    src: url("../YorkshireBrushScript-Regular.otf");
+}
+
+/*********************************************/
+/***************** NAVBAR ********************/
+/*********************************************/
+
+.navbar {
+    font-size: 14px;
+    font-weight: 500;
+}
+.navbar li a, .navbar .navbar-brand {
+    color: #0b0b0b;
+}
+
+.navbar-nav li.active a {
+    color: #ef7f19 !important;
+}
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.open .dropdown-toggle {
+    color: #fff;
+    background-color: #ef7f19 !important;
+}
+.dropdown-menu li a {
+    color: #0b0b0b !important;
+    background-color: #ef7f19 !important;
+}
+.dropdown-menu li a:hover {
+    background-color: #ef7f19 !important;
+}
+
+.facebook-icon {
+  height: 28px;
+  object-fit: contain;
+}
+
+.instagram-icon {
+  height: 28px;
+  object-fit: contain;
+}
+
+.hand-holding-heart-solid-1 {
+  width: 29px;
+  height: 26px;
+  object-fit: contain;
+}
+
+
+
+/*********************************************/
+/***************END- NAVBAR ******************/
+/*********************************************/
+
+
+
+/*********************************************/
+/*****************BANNER**********************/
+/*********************************************/
+.jumbo{
+
+margin-top: 6%;
+
+}
+
+@media (min-width: 200px) and (max-width: 930px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 100% !important;
+        padding-top: 11% !important;
+    }
+    .nav_scroll{
+        overflow-y: scroll !important;
+        max-height: 300px !important;
+    }
+    .btn_doar{
+        padding-bottom: 2% !important;
+        padding-top: 2% !important;
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 770px) {
+    .carousel-inner img {
+        width: 100%;
+        height: 100% !important;
+        padding-top: 11% !important;
+    }
+    .nav_scroll{
+        overflow-y: scroll !important;
+        max-height: 300px !important;
+    }
+    .button-donate {
+        padding-bottom: 2% !important;
+        padding-top: 2% !important;
+        margin-left: 0px !important;
+    }
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100% !important;
+}
+
+
+.banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100% !important;
+  height: 700px;
+  object-fit: contain;
+}
+
+.btn_banner{
+  color: #ffffff;
+  background-color: #ef7f19;
+  border-radius: 0px !important;
+  padding: 1.5% 6.5% 1.5% 6.5% !important;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.btn_banner:hover{
+    background-color: #D36B13;
+}
+
+.text-banner {
+    font-size: 24px;
+    max-width: 880px;
+    padding-top: 48px;
+}
+
+/*** ABOUT SECTION***/
+.about{
+    padding-top: 5% !important;
+    background-color: #ffffff !important;
+    padding-bottom: 5% !important;
+}
+
+.subtitle-text {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+/*** ADOPT SECTION***/
+
+.adopt{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-color: #f2f2f2 !important;
+}
+
+.adopt-text-container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+}
+
+.card_names{
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.card_text{
+    font-size: 10px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.btn_card{
+    font-size: 9px;
+    color: #ef7f19;
+}
+
+.modal_subtitle{
+    font-size: 12px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.modal_text{
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.modal_description{
+    font-size: 12px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: justify-all;
+}
+
+
+.btn_modal{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ef7f19;
+}
+
+.adopt_tit{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    color: #ef7f19;
+    margin-bottom: 24px;
+}
+
+
+.btn_adopt{
+    color: #ffffff!important;
+    background-color: #ef7f19 ;
+    border-radius: 0px !important;
+    padding: 1% 4.5% 1% 4.5% !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 60px;
+}
+.btn_adopt:hover{
+    background-color: #D36B13 ;
+}
+
+/*** HELP SECTION***/
+
+.help-section{
+    padding-top: 5% !important;
+    padding-bottom: 8% !important;
+}
+
+.help_title{
+    font-family: YorkshireBrushScript;
+    font-size: 60px;
+    color: #ef7f19;
+    text-align: center;
+}
+
+.subtitle-help { 
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;  
+    padding-top: 32px;
+}
+
+.help_tit2{
+    font-family: YorkshireBrushScript;
+    font-size: 30px;
+    text-align: center;
+    color: #ef7f19;
+}
+
+.help_tit3{
+    font-family: YorkshireBrushScript;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text_help2{
+    font-family: Lato;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.help_containers{
+    background-color: #d7751c;
+    padding: 1.5%;
+    border-radius: 5px;
+    max-width: 24% !important;
+
+}
+
+.container2help{
+    margin-top: 5% !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    background-color: #67318b !important;
+    border-radius: 5px;
+}
+
+
+.help_icons{
+    color: #ffffff !important;
+}
+
+.text_family{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 48px;
+}
+
+
+
+/*** EVENT SECTION***/
+.event{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.nextEvent_tit{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ef7f19;
+}
+
+.nextevent_card_tit{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.nextevent_card_text{
+    font-size: 13px;
+}
+
+
+/*** HELP_NEEDY_FAMILY SECTION***/
+.help_family {
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-image: url("../img/carenciada.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px;
+    object-fit: contain;
+}
+
+.fam_title{
+    font-family: YorkshireBrushScript;
+    font-size: 60px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 48px;
+}
+
+.family-text-container {
+    max-width: 1024px;
+}
+
+/*** NEWS SECTION***/
+
+.news{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.news_tit{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.91;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ef7f19;
+}
+
+.vermais{
+    color: #ef7f19;
+
+}
+
+
+.btn_news{
+    color: #ffffff!important;
+    background-color: #000000 !important;
+    border-radius: 5px !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    width: 249px;
+}
+
+.camp_obrigatorios{
+    font-size: 12px;
+    text-align: left;
+    margin-top: 12px;
+}
+
+
+
+
+/*** CONTACT SECTION***/
+.contact{
+    padding-top: 5% !important;
+    padding-bottom: 2% !important;
+    background-color: #fff !important;
+}
+
+.contact_text {
+    font-size: 16px;
+    text-align: left;
+    color: #767676;
+}
+
+.contact_icon{
+    color: #1b1e21;
+    font-weight: bold;
+}
+
+.contact_tit{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 0.93;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ef7f19;
+}
+
+.contact_socialnet{
+    font-size: 16px;
+    text-align: left;
+    color: #000000;
+}
+
+.contact_btn{
+    align-items: center !important;
+    color: #ffffff!important;
+    background-color: #ef7f19 !important;
+    border-radius: 0 !important; 
+    padding: 3% 1% 3% 1% !important;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 !important;
+    width: 180px;
+}
+
+.inputs{
+    border-radius: 5px !important;
+    margin-top: 20px;
+    background-color: #F8F8F8;
+}
+
+.instagram-footer {
+    padding-bottom: 24px; 
+    font-size: 18px;
+    color: #767676;
+}
+
+.instagram-icon-footer {
+    padding-right: 12px;
+}
+
+/*** FOOTER SECTION***/
+.footer{
+    background-color: #353535 !important;
+}
+
+
+
+/*********************************************/
+/************** ASSOCIATION PAGE *************/
+/*********************************************/
+
+.img_jumbotron_associacao{
+    background-image: url("../img/banner-associacao.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.jumbotron_tit{
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff!important;
+}
+
+.breadcrumbs{
+    font-size: 12px !important;
+    text-align: center !important;
+    color: #ffffff!important;
+}
+
+.ass_tit{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.ass_text{
+    font-size: 14px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.parcerias{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-color: #FFFFFF;
+}
+
+.parcerias_mainTit{
+    padding-top: 0% !important;
+    font-size: 35px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ef7f19!important;
+}
+
+
+.parcerias_tit{
+    padding-top: 5% !important;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.parcerias_text{
+    font-size: 10px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+
+/*********************************************/
+/************** ADOPT PAGE *************/
+/*********************************************/
+
+.img_jumbotron_adopt{
+    background-image: url("../img/banner-animais.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible2 {
+    background-color: #777;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+    background-color: #f9ad99;
+    border-radius: 5px;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active .collapsible2:hover {
+    background-color: #777;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.collapsible2:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+
+.adopt_list{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+}
+
+.btn_adopt_card{
+    align-items: center !important;
+    color: #ffffff!important;
+    background-color: #ef7f19 !important;
+    display: block;
+    margin-bottom: 5% !important;
+    margin-left: 5% !important;
+    alignment: left;
+    width: 40% !important;
+}
+
+.adopt_text{
+    font-size: 12px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+}
+
+.row2{
+    padding-top: 5% !important;
+}
+
+.card{
+    height: 100% !important;
+}
+
+.modal_boxTitle{
+    text-align: left;
+
+}
+
+.modal_inputs{
+    padding-top: 2%;
+    margin-left: 4% !important;
+    margin-right: 4% !important;
+}
+
+
+
+
+
+
+/*********************************************/
+/************** HELP PAGE *************/
+/*********************************************/
+
+.img_jumbotron_help{
+    background-image: url("../img/banner-como-ajudar.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-bottom: 2%;
+}
+
+.containerHelpIntro{
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.sectionHelp{
+    padding-top: 5% !important;
+    padding-bottom: 5% !important;
+    background-color: #FFFFFF;
+}
+
+.help_divs{
+    margin-top: 1% !important;
+    margin-bottom: 1% !important;
+    margin-right: 1% !important;
+    margin-left: 1% !important;
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    background-color: #f7f7f7;
+}
+
+.help_socio{
+    font-family: YorkshireBrushScript;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.help_divs_tit{
+    font-family: YorkshireBrushScript;
+    font-size: 50px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ef7f19;
+
+}
+
+.help_divs_text{
+    font-size: 15px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.round_text{
+    padding-right: 20%;
+    padding-left: 20%;
+    font-size: 13px;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.round_row{
+    padding-right: 13%;
+    padding-left: 13%;
+}
+
+
+
+
+
+

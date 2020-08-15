@@ -1,0 +1,82 @@
+.header-menu,
+.about-section,
+.adopt-container,
+.help-section,
+.family-container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-menu .navbar {
+    min-height: 100px;
+    padding: 0;
+    flex: 1;
+}
+.navbar-nav {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 120px;
+}
+.nav-item {
+    padding-right: 48px;
+}
+.button-donate {
+    position: absolute;
+    min-height: 100px;
+    top: -50px;
+    width: 120px;
+    background-color: #ef7f19;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.button-donate:hover {
+    background-color: #D36B13;
+    text-decoration: none;
+    color: white;
+}    
+
+.position-relative .button-donate {
+    color: white;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.pet-card {
+    background-color: white;
+    max-width: 282px;
+    min-width: 282px;
+    min-height: 412px;
+    margin-left: 36px;
+}
+.pet-card:first-child {
+    margin-left: 0 !important;
+}
+.pet-image {
+    max-width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 282px;
+    width: 282px;
+}
+.pet-text-container {
+    padding: 0 18px;
+}
+
+.division-description {
+    padding: 0 12px;
+}
+.pet-name {
+    color: #ef7f19;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.pet-description {
+    font-size: 16px;
+}

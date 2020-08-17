@@ -23,6 +23,10 @@ body {
     color: #0b0b0b;
 }
 
+.navbar li a:hover {
+    color: #ef7f19;
+}
+
 .navbar-nav li.active a {
     color: #ef7f19 !important;
 }
@@ -71,9 +75,10 @@ body {
 .jumbo{
 
 margin-top: 6%;
-
 }
 
+
+/*
 @media (min-width: 200px) and (max-width: 930px) {
     .carousel-inner img {
         width: 100%;
@@ -106,19 +111,18 @@ margin-top: 6%;
         padding-top: 2% !important;
         margin-left: 0px !important;
     }
-}
+}*/
 
 .carousel-inner img {
     width: 100%;
-    height: 100% !important;
+    height: 100%;
 }
-
 
 .banner {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 100% !important;
+  width: 100%;
   height: 700px;
   object-fit: contain;
 }
@@ -127,9 +131,10 @@ margin-top: 6%;
   color: #ffffff;
   background-color: #ef7f19;
   border-radius: 0px !important;
-  padding: 1.5% 6.5% 1.5% 6.5% !important;
+  min-width: 300px;
   font-size: 18px;
   font-weight: 500;
+  padding: 16px 48px 16px;
 }
 
 .btn_banner:hover{
@@ -144,24 +149,24 @@ margin-top: 6%;
 
 /*** ABOUT SECTION***/
 .about{
-    padding-top: 5% !important;
+    padding-top: 5%;
     background-color: #ffffff !important;
-    padding-bottom: 5% !important;
+    padding-bottom: 5%;
 }
 
 .subtitle-text {
     font-size: 24px;
     font-weight: 300;
     line-height: 32px;
-    max-width: 90%;
+    padding: 0 48px;
 }
 
 /*** ADOPT SECTION***/
 
 .adopt{
-    padding-top: 5% !important;
-    padding-bottom: 5% !important;
-    background-color: #f2f2f2 !important;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f2f2f2;
 }
 
 .adopt-text-container {
@@ -232,6 +237,7 @@ margin-top: 6%;
 .adopt_tit{
     font-size: 36px;
     font-weight: 500;
+    line-height: 42px;
     text-align: center;
     color: #ef7f19;
     margin-bottom: 24px;
@@ -254,8 +260,8 @@ margin-top: 6%;
 /*** HELP SECTION***/
 
 .help-section{
-    padding-top: 5% !important;
-    padding-bottom: 8% !important;
+    padding-top: 5%;
+    padding-bottom: 8%;
 }
 
 .help_title{

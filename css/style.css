@@ -153,6 +153,7 @@ margin-top: 6%;
     font-size: 24px;
     font-weight: 300;
     line-height: 32px;
+    max-width: 90%;
 }
 
 /*** ADOPT SECTION***/
@@ -279,16 +280,12 @@ margin-top: 6%;
     color: #ef7f19;
 }
 
-.help_tit3{
+.purple-card_title{
     font-family: YorkshireBrushScript;
-    font-size: 50px;
-    font-weight: normal;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: normal;
+    font-size: 60px;
     text-align: center;
     color: #ffffff;
+    margin-left: 128px;
 }
 
 .text_help2{
@@ -296,24 +293,52 @@ margin-top: 6%;
     text-align: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    max-width: 50%;
 }
 
 .help_containers{
     background-color: #d7751c;
     padding: 1.5%;
     border-radius: 5px;
-    max-width: 24% !important;
+    width: 100% !important;
 
 }
 
 .container2help{
     margin-top: 5% !important;
-    padding-top: 1% !important;
-    padding-bottom: 1% !important;
+    padding-top: 2% !important;
+    padding-bottom: 1.5% !important;
     background-color: #67318b !important;
     border-radius: 5px;
 }
 
+.text-purple-card {
+    font-size: 20px;
+    color: #FFFFFF;
+    max-width: 600px;
+    margin-left: 60px;
+}
+
+.orange-card {
+    background-color: #d7751c;
+    max-width: 252px;
+    min-width: 300px;
+    min-height: 312px;
+    margin-left: 24px;
+    padding: 24px;
+    border-radius: 5px;
+}
+
+.orange-card:first-child {
+    margin-left: 0 !important;
+}
+
+.text-orange-card {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
 
 .help_icons{
     color: #ffffff !important;
@@ -384,7 +409,7 @@ margin-top: 6%;
 }
 
 .family-text-container {
-    max-width: 1024px;
+    max-width: 980px;
 }
 
 /*** NEWS SECTION***/

@@ -16,22 +16,15 @@
     flex: 1;
     align-items: center;
     justify-content: flex-end;
-    padding-right: 120px;
 }
 .nav-item {
     padding-right: 48px;
 }
-.button-donate {
-    position: absolute;
-    min-height: 100px;
-    top: -50px;
-    width: 120px;
-    background-color: #ef7f19;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 20px;
+
+.nav-item:last-child {
+    padding-right: 0px !important;
 }
+
 .button-donate:hover {
     background-color: #D36B13;
     text-decoration: none;
@@ -53,6 +46,7 @@
     min-height: 412px;
     margin-left: 36px;
 }
+
 .pet-card:first-child {
     margin-left: 0 !important;
 }
@@ -75,8 +69,13 @@
     color: #ef7f19;
     font-size: 24px;
     font-weight: 500;
+    padding-top: 12px;
 }
 
 .pet-description {
     font-size: 16px;
+}
+
+.purple-card {
+    display: flex;
 }

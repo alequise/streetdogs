@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5 rem;
 }
 
 abbr[title],
@@ -167,8 +167,8 @@ a {
 }
 
 a:hover {
-  color: #d6370c;
-  text-decoration: underline;
+  color: #ef7f19;
+  text-decoration: none;
 }
 
 a:not([href]):not([tabindex]) {

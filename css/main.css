@@ -26,6 +26,10 @@
     padding-right: 0px !important;
 }
 
+.nav-item:hover {
+    color: #D36B13;
+}
+
 .button-donate:hover {
     background-color: #D36B13;
     text-decoration: none;
@@ -76,14 +80,13 @@
     font-size: 16px;
 }
 
-.purple-card {
-    display: flex;
-}
-
-
 @media (max-width: 768px) {
     .about-section,
-    .adopt-container {
+    .adopt-container,
+    .subtitle-help,
+    .purple-card,
+    .family-text-container,
+    .contact-wrap {
         margin: 20px;
         max-width: 100%;
     }
@@ -122,7 +125,7 @@
         background-color: white;
         max-width: 335px;
         min-width: 335px;
-        min-height: 412px;
+        min-height: 450px;
         margin: 24px 0 24px;
     }
     .pet-image {
@@ -130,5 +133,80 @@
         width: 335px;
     }
 
+    .orange-card {
+        margin-top: 36px;
+    }
+    .subtitle-help {
+        font-size: 20px;
+        line-height: 30px;
+        padding: 0;
+        margin-top: 24px;
+    }
 
+    .orange-card {
+        max-width: none;
+        min-width: 300px;
+        min-height: 300px;
+        border-radius: 0px;
+    }
+
+    .text-orange-card {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .btn_adopt{
+        margin-top: 48px;
+        min-width: -webkit-fill-available;
+    }
+
+    .btn_banner {
+        min-width: -webkit-fill-available;
+    }
+
+    .purple-card {
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        justify-self: center;
+        justify-content: center;
+    }
+    .purple-card_title{
+        margin-left: 0;
+        font-size: 44px;
+    }
+    .text-purple-card {
+        margin-left: 0;
+        margin-top: 24px;
+        font-size: 18px;
+        padding: 0 5%;
+    }
+
+    .click-here {
+        text-decoration: underline;
+    }
+
+    .image-family-section {
+        max-height: 325px;           
+        margin: 12px 0 96px;
+    }
+
+    .logo-footer {
+        max-width: 180px;
+        margin-bottom: 16px;
+    }
+
+    .siga-nos {
+        margin-top: 24px;
+    }
+    
+    .col-lg-4 {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .footer{
+        background-color: #353535 !important;
+        padding: 3% 0 3%;
+    }
 }

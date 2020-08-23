@@ -167,7 +167,6 @@ a {
 }
 
 a:hover {
-  color: #ef7f19;
   text-decoration: none;
 }
 
@@ -1297,9 +1296,9 @@ pre code {
   }
   .col-lg-4 {
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 33.33333%;
-    flex: 0 0 33.33333%;
-    max-width: 33.33333%;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
   }
   .col-lg-5 {
     -webkit-box-flex: 0;
@@ -2590,7 +2589,7 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #D36B13;
+  background-color: #D36B13;
   text-decoration: none;
 }
 
@@ -4334,7 +4333,7 @@ input[type="button"].btn-block {
 
 .nav-link:hover, .nav-link:focus {
   text-decoration: none;
-  filter: brightness(125%);
+  color: #ef7f19;
 }
 
 .nav-link.disabled {

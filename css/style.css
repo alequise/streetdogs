@@ -23,7 +23,7 @@ body {
     color: #0b0b0b;
 }
 
-.navbar li a:hover {
+.navbar link:hover {
     color: #ef7f19;
 }
 
@@ -42,15 +42,10 @@ body {
     background-color: #ef7f19 !important;
 }
 .dropdown-menu li a:hover {
-    background-color: #ef7f19 !important;
+    background-color: #d7751c !important;
 }
 
-.facebook-icon {
-  height: 28px;
-  object-fit: contain;
-}
-
-.instagram-icon {
+.size-icon {
   height: 28px;
   object-fit: contain;
 }
@@ -134,7 +129,7 @@ margin-top: 6%;
   min-width: 300px;
   font-size: 18px;
   font-weight: 500;
-  padding: 16px 48px 16px;
+  padding: 16px 24px 16px;
 }
 
 .btn_banner:hover{
@@ -245,16 +240,18 @@ margin-top: 6%;
 
 
 .btn_adopt{
-    color: #ffffff!important;
+    color: #ffffff;
     background-color: #ef7f19 ;
     border-radius: 0px !important;
-    padding: 1% 4.5% 1% 4.5% !important;
+    padding: 16px 24px 16px;
     font-size: 18px;
     font-weight: 500;
     margin-top: 60px;
+    min-width: 300px;
 }
+
 .btn_adopt:hover{
-    background-color: #D36B13 ;
+    background-color: #D36B13;
 }
 
 /*** HELP SECTION***/
@@ -265,25 +262,27 @@ margin-top: 6%;
 }
 
 .help_title{
-    font-family: YorkshireBrushScript;
-    font-size: 60px;
+    font-size: 36px;
     color: #ef7f19;
     text-align: center;
 }
 
 .subtitle-help { 
-    font-size: 18px;
-    line-height: 27px;
+    font-size: 22px;
+    line-height: 32px;
     text-align: center;
-    color: #000000;  
-    padding-top: 32px;
+    color: #000000;
 }
 
 .help_tit2{
     font-family: YorkshireBrushScript;
     font-size: 30px;
     text-align: center;
-    color: #ef7f19;
+    color: #ef7f19; 
+}
+
+.purple-card {
+    display: flex;
 }
 
 .purple-card_title{
@@ -291,7 +290,7 @@ margin-top: 6%;
     font-size: 60px;
     text-align: center;
     color: #ffffff;
-    margin-left: 128px;
+    margin-left: 148px;
 }
 
 .text_help2{
@@ -330,37 +329,29 @@ margin-top: 6%;
     max-width: 252px;
     min-width: 300px;
     min-height: 312px;
-    margin-left: 24px;
     padding: 24px;
     border-radius: 5px;
 }
 
 .orange-card:first-child {
-    margin-left: 0 !important;
+    margin-left: 0;
 }
 
 .text-orange-card {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 21px;
     color: #FFFFFF;
-    text-align: center;
+    text-align: left;
 }
 
 .help_icons{
     color: #ffffff !important;
 }
 
-.text_family{
-    font-family: Lato;
-    font-size: 18px;
+.click-here:hover {
+    text-decoration: underline;
     font-weight: 500;
-    line-height: 27px;
-    text-align: center;
-    color: #ffffff;
-    padding-top: 48px;
 }
-
-
 
 /*** EVENT SECTION***/
 .event{
@@ -395,27 +386,32 @@ margin-top: 6%;
 
 
 /*** HELP_NEEDY_FAMILY SECTION***/
-.help_family {
-    padding-top: 5% !important;
-    padding-bottom: 5% !important;
-    background-image: url("../img/carenciada.jpg") !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 600px;
-    object-fit: contain;
-}
 
 .fam_title{
     font-family: YorkshireBrushScript;
-    font-size: 60px;
-    text-align: center;
-    color: #ffffff;
-    padding-bottom: 48px;
+    font-size: 44px;
+    text-align: left;
+    color: #d7751c;
 }
 
 .family-text-container {
-    max-width: 980px;
+    max-width: 600px;
+}
+
+.text_family{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: left;
+    color: #0b0b0b;
+    padding-top: 32px;
+}
+
+.image-family-section {
+    max-height: 450px;
+    width: auto;
+    max-width: 650px;
 }
 
 /*** NEWS SECTION***/
@@ -438,7 +434,6 @@ margin-top: 6%;
 
 .vermais{
     color: #ef7f19;
-
 }
 
 
@@ -457,14 +452,17 @@ margin-top: 6%;
     margin-top: 12px;
 }
 
-
-
-
 /*** CONTACT SECTION***/
-.contact{
-    padding-top: 5% !important;
-    padding-bottom: 2% !important;
-    background-color: #fff !important;
+
+.contact-wrap{
+    padding-top: 6% !important;
+    padding-bottom: 5% !important;
+    background-color: #fff;
+    max-width: 960px;
+}
+
+.logo-footer {
+    max-width: 200px;
 }
 
 .contact_text {
@@ -489,7 +487,7 @@ margin-top: 6%;
     color: #ef7f19;
 }
 
-.contact_socialnet{
+.contact_social{
     font-size: 16px;
     text-align: left;
     color: #000000;
@@ -513,19 +511,32 @@ margin-top: 6%;
     background-color: #F8F8F8;
 }
 
-.instagram-footer {
+.text-footer {
     padding-bottom: 24px; 
     font-size: 18px;
     color: #767676;
 }
 
-.instagram-icon-footer {
+.text-footer:hover {
+    color: #0b0b0b;
+}
+
+.icon-footer {
     padding-right: 12px;
 }
+.icon-footer:hover {
+    fill: #d7751c;
+}
+
 
 /*** FOOTER SECTION***/
 .footer{
     background-color: #353535 !important;
+    padding: 1% 0 1%;
+}
+
+.link-portfolio:hover {
+    color: #FFFFFF;
 }
 
 

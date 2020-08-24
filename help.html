@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt_PT">
 
 <head>
     <meta charset="utf-8">
@@ -12,7 +12,6 @@
 
     <!-- Font Awesome Icons -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -27,221 +26,170 @@
     <!-- Theme CSS - Includes Bootstrap -->
     <link href="css/creative.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/w3.css">
-
-
 </head>
-
 
 <body id="page_top">
 <div id="fb-root"></div>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v4.0"></script>
 
-<!-- NAVBAR  ========================================================= -->
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-nav">
-    <div class="navbar-brand js-scroll-trigger Logo_StreetDogs">
-        <img src="img/logo-street-dogs_90.png">
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<header class="header-menu">
+    <!-- NAVBAR  ========================================================= -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="navbar-brand js-scroll-trigger logo-header">
+          <img src="./img/LogoStreetdogs.jpg">
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    A ASSOCIAÇÃO
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                    <a class="dropdown-item" href="association.html#about">SOBRE NÓS</a>
-                    <a class="dropdown-item" href="association.html#laws">LEGISLAÇÃO</a>
-                    <a class="dropdown-item" href="association.html#partners">PARCEIROS</a>
-                    <a class="dropdown-item" href="#contact">CONTACTOS</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#help">COMO AJUDAR</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ANIMAIS
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                    <a class="dropdown-item" href="fat.html">PARA FAT</a>
-                    <a class="dropdown-item" href="adopt.html">PARA ADOÇÃO</a>
-                    <a class="dropdown-item" href="ced.html">CED</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#news">NOTÍCIAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="shop.html">LOJINHA</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link w3-hover-text-indigo" href="https://www.facebook.com/streetdogspt/?fref=ts"><img src="img/facebook-f-brands.png" srcset="img/facebook-f-brands@2x.png 2x, img/facebook-f-brands@3x.png 3x" class="facebook-f-brands"></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link w3-hover-text-purple" href="https://www.instagram.com/streetdogspt/"><img src="img/insta.png" srcset="img/insta@2x.png 2x, img/insta@3x.png 3x" class="insta"></a>
-            </li>
-            <li>
-                <a class="navbar-brand js-scroll-trigger" style="background-color: transparent;" href="#help">
-                    <button class="btn my-2 my-sm-0 btn_doar" type="submit"><img src="img/hand-holding-heart-solid-1.png" srcset="img/hand-holding-heart-solid-1@2x.png 2x, img/hand-holding-heart-solid-1@3x.png 3x" class="hand-holding-heart-solid-1"> DOAR</button>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
-
-<div class="jumbotron jumbotron-fluid img_jumbotron_help jumbo">
-            </br>
-            <div class="container">
-                <h1 class="jumbotron_tit">Como ajudar</h1>
-                <p class="breadcrumbs"><a href="index.html">Home</a> > Como ajudar</p>
-            </div>
-        </div>
-
-        <section class="page-section sectionHelp" id="help">
-            <div class="container containerHelpIntro">
-                <p class="text-black-50 mb-4">Não recebemos qualquer tipo de ajuda institucional, por isso
-                    todas as ajudas são muito importantes. E há varias formas de ajudar, basta querer.  O
-                    numero de animais abandonados tem aumentado significativamente. Infelizmente é humanamente
-                    impossível conseguir ajudá-los a todos, por isso tentamos gerir os nossos recursos de forma
-                    a ajudar o maior número de animais possível.
-                </p>
-            </div>
-            <div class="container container2help">
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 text-center">
-                        <h2 class="h2 mb-2 text-white help_tit3">Seja nosso sócio!</h2>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="#page_top">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ANIMAIS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="fat.html">PARA FAT</a>
+                        <a class="dropdown-item" href="adopt.html">PARA ADOÇÃO</a>
+                        <a class="dropdown-item" href="ced.html">CED</a>
                     </div>
-                    <div class="col-lg-8 col-md-8 text-center text_help2">
-                        <p class="text-white mb-0">Por apenas 12€ por ano seja nosso sócio e ajude a salvar uma vida! Para ser nosso sócio,
-                            por favor preencha o formulário clicando aqui. </p>
-                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="help.html">COMO AJUDAR</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="association.html">A ASSOCIAÇÃO</a>                        
+                  </li>
+                
+                  <li class="nav-item">
+                      <a class="nav-link" href="shop.html">LOJINHA</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-item-icon"  href="https://www.facebook.com/streetdogspt/?fref=ts" target="_blank"><img src="./img/facebook.svg" alt="icone do facebook" class="size-icon"></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-item-icon" href="https://www.instagram.com/streetdogspt/" target="_blank"><img src="./img/instagram-icon.svg" alt="icone do instagram" class="size-icon"></a>
+                  </li>
+              </ul>
+          </div>
+    </nav>
+  </header>
+
+<main class="main">
+    <div class="jumbo">
+                </br>
+                <div class="container">
+                    <p class="breadcrumbs"><a href="index.html">Home</a> > Como ajudar</p>
+                    <h1 class="jumbotron_tit">Como ajudar</h1>
                 </div>
             </div>
-            </br>
-            </br>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-1 col-md-1 text-center"></div>
-                    <div class="col-lg-5 col-md-5 text-center help_divs">
-                        <h2 class="help_divs_tit">Donativos financeiros</h2>
-                        <p class="help_divs_text">Poderá ajudar fazer um donativo financeiro para:
-                            IBAN PT50 0033 0000 4553078518705 ou através de MBWAY - 968 834 244.
-                            Se necessitar de recibo, por favor envie um email com os dados (nome, morada e nif)
-                            e comprovativo de transferência para direcao@streetdogs.pt</p>
+
+            <section class="help-section" id="help">
+                <div class="container">
+                    <p class="text-help-section">A Streetdogs – Associação de Proteção Animal, é uma entidade sem fins lucrativos, legalmente constituída e sediada em Barcelos. Resgatamos, tratamos e encaminhamos para adoção responsável, animais abandonados (cães e gatos). Não temos espaço físico e trabalhos em regime de voluntariado. Promovemos o convívio pacífico entre os animais e as pessoas, em respeito pelo bem-estar animal e a saúde pública.
+                    </p>
+                </div>
+                <div class="banner-help-section">
+                    <img class="img-banner-help" src="./img/Capa face grande 6-6.jpg" alt="Imagem de gato para adoção">
+                </div>
+                <div class="container">
+                    <div class="row-orange-card">
+                        <div class="orange-card orange-card-size2 ">
+                            <h3 class="h4 mb-2 text-white help_tit3">Donativos financeiros</h3>
+                            </br>
+                            <p class="text-orange-card2">Poderá ajudar fazer um donativo para o IBAN PT50 0033 0000 4553078518705 ou através de MBWAY - 968 834 244. <br> 
+                                <br>
+                                Se necessitar de recibo, por favor envie um email com os dados (nome, morada e nif) e comprovativo de transferência para geral@streetdogs.pt</p>
+                        </div>
+                        <div class="orange-card orange-card-size2 ">
+                            <h3 class="h4 mb-2 text-white help_tit3">Donativos em géneros</h3>
+                        </br>
+                        <p class="text-orange-card2">Poderá ajudar com donativos em géneros como ração, patés, areia, desparasitantes, coleiras, trelas, camas, mantas, artigos de limpeza, etc. Contacte-nos para combinarmos a entrega, ou pode deixar num dos nossos pontos de recolha em Barcelos: 
+                          <br> Mimos
+                          <br> Centro Veterinário do Olival
+                          <br> Centro Veterinário da Cidade</p>
+                        </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 text-center help_divs">
-                        <h2 class="help_divs_tit">Adotando ou sendo FAT</h2>
-                        <p class="help_divs_text">Mesmo que não possa adotar, seja família de acolhimento de um animal
-                            até ele ser adotado (as despesas serão suportadas por nós). Se estiver
-                            interessado em ser família de acolhimento temporário, por favor, preencha
-                            o seguinte formulário.</p>
+                </div>
+                <div class="container">
+                    <div class="row-orange-card">
+                        <div class="orange-card orange-card-size3 ">
+                            <h3 class="h4 mb-2 text-white help_tit3">Adotar ou Apadrinhar</h3>
+                            </br>
+                            <p class="text-orange-card2">Já pensou em adicionar um novo membro à sua família? Ao adoptar um cão ou gato em risco, estará a salvar uma vida e será recompensado com o afecto e a gratidão sem limites de um animal que já conheceu o lado mais duro da vida. Mesmo que não possa levar um animal para casa, com o seu donativo poderemos esterilizar e tratar um animal sem família e, dessa forma, melhorar muito a sua qualidade de vida, impedindo também o nascimento de mais animais destinados a viver e a sofrer nas ruas. O apadrinhamento não tem valor mínimo, aceitamos e agradecemos qualquer valor com que possa contribuir.</p>
+                            <a class="js-scroll-trigger btn btn_banner2" target="_blank" href="https://tinyurl.com/y2cxmf4p">QUERO SER SÓCIO</a>
+                        </div>
                     </div>
-                    <div class="col-lg-1 col-md-1 text-center"></div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-1 col-md-1 text-center"></div>
-                    <div class="col-lg-5 col-md-5 text-center help_divs">
-                        <h2 class="help_divs_tit">Donativos em género</h2>
-                        <p class="help_divs_text">Poderá ajudar com donativos em géneros como ração, patés, areia, desparasitantes,
-                            coleiras, trelas, camas, mantas, artigos de limpeza, etc. Contacte-nos para
-                            combinarmos a entrega.</p>
+                    <div class="double-text-container">
+                        <div class="text-double-right">
+                            <h2 class="double-title">Ser FAT (Família de Acolhimento Temporário)</h2>
+                            <p class="double-text">São famílias que se predispõem a acolher um animal na sua casa até ser adotado. A família de acolhimento é responsável pela sua segurança, bem estar e por lhe dar todo o amor e carinho possível. Todos os custos veterinários e de alimentação continuarão a ser da nossa responsabilidade. As famílias de acolhimento são muito importantes para podermos continuar este projecto, pois sem ter onde colocar o animal, não nos é possível retira-lo da rua.  Ser família de acolhimento ​é também uma oportunidade de ter a experiência de como seria ter (mais) um animal de estimação, sem ter a responsabilidade de uma futura adoção.</p>
+                            <a class="js-scroll-trigger btn btn_banner" target="_blank" href="https://tinyurl.com/y3cwcq5m">QUERO SER FAT</a>
+                        </div>
                     </div>
-                    <div class="col-lg-5 col-md-5 text-center help_divs">
-                        <h2 class="help_divs_tit">Ser Voluntário</h2>
-                        <p class="help_divs_text">Se gostas de animais, tens algum tempo livre, sentido de responsabilidade e estás
-                            disposto a ajudar, preenche o seguinte formulário. Os animais precisam de ti!</p>
+                    <div class="double-text-container">
+                        <div class="text-double-right">
+                            <h2 class="double-title">Ser Voluntário</h2>
+                            <p class="double-text">Se gosta de animais, tem algum tempo livre e quer ajudar a nossa Associação, então inscreva-se para ser voluntário(a) e deixe-nos conhecê-lo(a) e apresentar a nossa Associação. Ao ser voluntário(a) da nossa Associação você pode ajudar, conhecer todos os nossos animais e ainda resgatar muitos mais que possamos vir a ajudar. Pode também participar em eventos de angariação de bens essenciais, em campanhas e venda de artesanato.</p>
+                            <a class="js-scroll-trigger btn btn_banner" target="_blank" href="https://tinyurl.com/y2tk4um5">QUERO SER VOLUNTÁRIO</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-1 col-md-1 text-center"></div>
-            </div>
-            </br>
-            </br>
-            <div class="row round_row">
-                <div class="col-lg-4 col-md-4 text-center">
-                    <img src="img/apadrinhe.jpg" srcset="img/apadrinhe@2x.jpg 2x, img/apadrinhe@3x.jpg 3x" style="width:45%" class="w3-circle">
-                    </br>
-                    </br>
-                    <p class="round_text">Apadrinhe um dos nossos animais com um valor mensal definido por si.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <img src="img/leilao.jpg" srcset="img/leilao@2x.jpg 2x, img/leilao@3x.jpg 3x" style="width:45%" class="w3-circle">
-                    </br>
-                    </br>
-                    <p class="round_text">Participe dos nossos Leilões online.</p>
-                </div>
-                <div class="col-lg-4 col-md-4 text-center">
-                    <img src="img/face.jpg" srcset="img/face@2x.jpg 2x, img/face@3x.jpg 3x" style="width:45%" class="w3-circle">
-                    </br>
-                    </br>
-                    <p class="round_text">Partilhe nossos apelos no Facebook</p>
-                </div>
-            </div>
+                <div class="container-purple-card2">
+                      <div class="purple-card2">
+                        <h2 class="purple-card-title2">Seja nosso sócio!</h2>
+                        <p class="text-purple-card2">O valor da quota anual é de 12€. No ato da inscrição há lugar também ao pagamento de uma joia de inscrição no valor de 5€. Os sócios com idade igual ou inferior a 15 anos até ao termino do ano civil da inscrição, estão isentos do pagamento da quota. Para se inscrever deve preencher o formulário, efetuar uma transferência para o NIB 0033 0000 45530785187 05 e enviar comprovativo para socios@streetdogs.pt.
+                            Receberá o recibo via email e o cartão de sócio na morada indicada.</p>
+                            <a class="js-scroll-trigger btn btn_banner" target="_blank" href="https://tinyurl.com/y2cxmf4p">QUERO SER SÓCIO</a>
+                      </div> 
+                    </div>
+            </section>
+</main>
 
-        </section>
-
-
-
-<!-- Contact Section -->
-<section class="page-section contact" id="contact">
-    <div class="container">
-        <div class="row">
+      <!-- Contact Section -->
+      <section class="page-section contact-wrap container" id="contact">
+        <div class="container">
+          <div class="row">
             <div class="col-lg-4">
-                <img src="img/logo-street-dogs@2x.png">
-                </br>
-                </br>
-                <div class="contact_text"><i class="fas fa-map-marker-alt fa-2x mb-3 contact_icon"></i>  Barcelos, Portugal</div>
-                <div class="contact_text"><i class="fas fa-envelope fa-2x mb-3 contact_icon"><a href="mailto:geral@streetdogs.pt" class="contact_text">  geral@streetdogs.pt</a></i></div>
+              <img class="logo-footer" src="./img/LogoStreetdogs@2x.jpg">
             </div>
-            <div class="col-lg-4 text-center">
-                <h3 class="mt-0 contact_socialnet">SIGA-NOS</h3>
-                <div class="contact_text"><a href="https://www.instagram.com/streetdogspt/" class="contact_text"><i class="fab fa-instagram fa-2x contact_icon w3-hover-text-purple"></i></a> instagram.com/streetdogspt/</div>
-                </br>
-                <div class="fb-page" data-href="https://www.facebook.com/streetdogspt/?fref=ts" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/streetdogspt/?fref=ts" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/streetdogspt/?fref=ts">Facebook</a></blockquote></div>
+            <div class="col-lg-4">              
+              <h3 class="contact_social">A ASSOCIAÇÃO</h3>
+              <div class="text-footer">
+                <img class="icon-footer size-icon" src="./img/map-marker-alt-solid-2.svg" alt="ícone de mapa">Barcelos, Portugal
+              </div>
+              <div class="text-footer">
+                <a href="mailto:geral@streetdogs.pt" target="_blank"><img alt="ícone de email" src="./img/icon/envelope-regular.svg" class="icon-footer size-icon">geral@streetdogs.pt</a>
+              </div>
             </div>
-            <div class="col-lg-4 text-center">
-                <form id="form-contacto" method="POST" action="mail/mail_contacto.php">
-                    <div class="w3-row-padding">
-                        <p class="text-muted mb-5 text-left text_contact">Dúvidas ou sugestões? <br> Não hesite em enviar mensagem.</p>
-                        <div>
-                            <input class="w3-input w3-border inputs" type="text" placeholder="Nome*" required name="name">
-                        </div>
-                        <div>
-                            <input class="w3-input w3-border inputs" type="text" placeholder="Email*" required name="email">
-                        </div>
-                        <textarea class="w3-input w3-border inputs" type="text" placeholder="Menssagem*" rows="5" required name="message"></textarea>
-                        <p class="text-muted camp_obrigatorios">* Campos obrigatórios</p>
-                        <button class="w3-button w3-right w3-section contact_btn" type="submit" name="btn_enviar">
-                            <i class="fa fa-paper-plane"></i> ENVIAR MENSAGEM
-                        </button>
-                    </div>
-                </form>
+            <div class="col-lg-4 siga-nos">
+                <h3 class="contact_social">SIGA-NOS</h3>
+                <div class="text-footer">
+                <a href="https://www.instagram.com/streetdogspt/" target="_blank"><img alt="ícone do Instagram" src="./img/instagram-icon.svg" class="icon-footer size-icon">streetdogspt</a>              </br>
+                </div>
+                <div class="text-footer">
+                  <a href="https://www.facebook.com/streetdogspt/?fref=ts" target="_blank"><img alt="ícone do Facebook" src="./img/facebook.svg" class="icon-footer size-icon">/streetdogspt</a>              </br>
+                </div>
             </div>
-        </div>
-    </div>
-</section>
+          </div>
+      </section>
+    </main>
 
-
-
-
-
-<!-- Footer -->
-<footer class="bg-light py-5 footer w3-center">
-    <a href="#page_top" class="w3-button js-scroll-trigger "><i class="fa fa-arrow-up w3-margin-right"></i>Para o topo</a></br>
-    </br>
-    </br>
-    <div class="container">
-        <div class="small text-center text-muted">Copyright &copy; 2019 <a href="https://www.linkedin.com/in/julifortes/" style="text-decoration:none">JULIANA FORTES</a></div>
+    <!-- Footer -->
+    <footer class="footer w3-center">
+      <div class="container">
+        <div class="small text-center text-muted">Copyright &copy; 2019 
+          <a class="link-portfolio" href="https://www.linkedin.com/in/julifortes/" style="text-decoration:none">JULIANA FORTES</a>&nbsp & &nbsp
+          <a class="link-portfolio" href="https://lystrevisan.com/" style="text-decoration:none">LYS TREVISAN</a></div>
         <div class="small text-center text-muted">All rights reserved</div>
-    </div>
-</footer>
+      </div>
+    </footer>
 
 <!-- Custom scripts for this template -->
 <script src="js/script.js"></script>

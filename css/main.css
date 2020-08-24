@@ -44,6 +44,10 @@
     position: relative;
 }
 
+.family-container {
+    margin-top: 150px;
+}
+
 .pet-card {
     background-color: white;
     max-width: 282px;
@@ -87,8 +91,22 @@
     .purple-card,
     .family-text-container,
     .contact-wrap {
-        margin: 20px;
+        margin: 0 20px;
         max-width: 100%;
+    }
+
+    .logo-header {
+        margin-left: 20px;
+    }
+
+    .logo-header img {
+        max-width: 100px;
+    }
+
+    .text-banner {
+        font-size: 20px;
+        padding-top: 24px;
+        line-height: 30px;
     }
 
     .carousel-caption {
@@ -106,15 +124,30 @@
         line-height: 32px;
         max-width: 100%;
         padding: 0;
+        margin-bottom: 24px;
+    }
+
+    .help-section {
+        padding-top: 60px;
     }
 
     .adopt {
-        padding-top: 10%;
-        padding-bottom: 10%;
+        padding-top: 60px;
+        padding-bottom: 48px;
     }
 
     .adopt_tit{
         margin-bottom: 36px;
+    }
+
+    .about-section {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+
+    .container2help {
+        margin-top: 32px;
+        padding: 24px 0 24px;
     }
         
     .row {
@@ -140,7 +173,6 @@
         font-size: 20px;
         line-height: 30px;
         padding: 0;
-        margin-top: 24px;
     }
 
     .orange-card {

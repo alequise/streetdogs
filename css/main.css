@@ -2,7 +2,10 @@
 .about-section,
 .adopt-container,
 .help-section,
-.family-container {
+.family-container,
+.association-section,
+.mission-container,
+.partners-section {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -84,13 +87,18 @@
     font-size: 16px;
 }
 
+.wrap-association-text {
+    padding-right: 36px;
+}
+
 @media (max-width: 768px) {
     .about-section,
     .adopt-container,
     .subtitle-help,
     .purple-card,
     .family-text-container,
-    .contact-wrap {
+    .contact-wrap,
+    .help_title {
         margin: 0 20px;
         max-width: 100%;
     }
@@ -167,7 +175,7 @@
     }
 
     .orange-card {
-        margin-top: 36px;
+        margin-top: 24px;
     }
     .subtitle-help {
         font-size: 20px;
@@ -198,18 +206,16 @@
 
     .purple-card {
         flex-direction: column;
-        align-items: center;
-        justify-items: center;
-        justify-self: center;
-        justify-content: center;
+        text-align: center;
     }
-    .purple-card_title{
-        margin-left: 0;
+
+    .purple-card_title {
         font-size: 44px;
     }
+
     .text-purple-card {
         margin-left: 0;
-        margin-top: 24px;
+        margin-top: 36px;
         font-size: 18px;
         padding: 0 5%;
     }
@@ -239,6 +245,201 @@
 
     .footer{
         background-color: #353535 !important;
-        padding: 3% 0 3%;
+        padding: 16px 0 16px;
     }
 }
+
+/************* HELP PAGE *************/
+
+@media (max-width: 768px) {
+
+    .jumbo,
+    .text-help-section,
+    .help_tit3, 
+    .text-orange-card2,
+    .btn_banner2,
+    .double-text-container,
+    .purple-card2 {
+        margin: 0 20px;
+        max-width: 100%;
+    }
+
+    .jumbo {
+        margin-top: 18px;
+    }
+
+    .banner-help-section {
+        max-height: 420px;
+        min-width: auto;
+        margin-bottom: 72px;
+    }
+
+    .img-banner-help {
+        display: none;
+    }
+
+    .text-help-section {
+        font-size: 20px;
+        line-height: 28px;
+        margin-bottom: 60px;
+    }
+
+    .wrap-association-text {
+        padding-right: 0;
+    }
+
+    .row-orange-card {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .orange-card-size2:first-child {
+        margin-right: 0;
+    }
+
+    .orange-card-size2 {
+        padding-right: 0px;
+    }
+
+    .purple-card2 {  
+        padding: 54px 0 54px;
+    }
+
+    .orange-card {
+        padding: 24px 0 32px;
+    }
+    
+    .orange-card-size3 {
+        padding-right: 0px;
+    }
+
+    .container-purple-card2 {
+        padding: 24px 0 24px;
+    }
+
+    .btn_banner2 {
+        min-width: -webkit-fill-available;
+    }
+
+    .double-title {
+        font-size: 20px;
+        line-height: 26px;
+        margin: 0 0 20px;
+    }
+
+    .text-double-right {   
+        margin-top: 60px;
+    }
+
+    .text-double-left {   
+        margin-top: 60px;
+    }
+}
+
+/************* A ASSOCIAÇÃO *************/
+
+
+@media (max-width: 768px) {
+
+    .text-association-section,
+    .association-text-container,
+    .text-box-estatuto,
+    .partners-section,
+    .row-partner-lastcard {
+        margin: 0 20px;
+        max-width: 100%;
+    }
+
+    .estatuto-section {
+        margin: 60px 0 60px;
+    }
+
+    .bg-estatuto-gray {
+        padding: 48px 0 48px;
+    }
+
+    .partners-box-text {
+        text-align: left;
+    }
+
+    .row-partner-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .row-partner-lastcard  {
+        flex-direction: column;
+    }
+
+    .row-partner-lastcard .partners-card:last-child {
+        margin-left: 0px;
+        margin-bottom: 96px;
+    }
+
+    .partners-img-card img {
+        max-height: 162px;
+    }
+}
+    
+    @media only screen and (max-width: 768px){
+        
+        .img-web-help {
+        display: none;
+        }
+    
+        .img-mobile-help {
+        display: block;
+        max-height: 400px;
+        width: auto;
+        }
+    }
+
+/************** CONTACT PAGE *************/
+
+
+@media (max-width: 768px) {
+
+    .form-section,
+    .association-section {
+        margin: 0 20px;
+        max-width: 100%;
+    }
+
+    .form-section {
+        flex-direction: column;
+    }
+
+    .text-contact-section {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contact-input {
+        width: auto;
+        min-width: -webkit-fill-available
+    }
+
+    .btn-contact{
+        min-width: -webkit-fill-available
+    }
+
+    .contact-right {
+        margin: 96px 20px 112px;
+    }
+}
+
+    @media only screen and (max-width: 768px){
+            
+        .ilustra-contact-web {
+        display: none;
+        }
+
+        .ilustra-contact-mobile {
+        display: block;
+        width: auto;
+        object-fit: scale-down;
+        }
+    }
+
+

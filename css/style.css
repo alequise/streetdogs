@@ -51,23 +51,10 @@ body {
 }
 
 .size-icon {
-  height: 28px;
+  height: 36px;
+  width: 36px;
   object-fit: contain;
 }
-
-.hand-holding-heart-solid-1 {
-  width: 29px;
-  height: 26px;
-  object-fit: contain;
-}
-
-
-
-/*********************************************/
-/***************END- NAVBAR ******************/
-/*********************************************/
-
-
 
 /*********************************************/
 /*****************BANNER**********************/
@@ -422,10 +409,10 @@ body {
 /*** CONTACT SECTION***/
 
 .contact-wrap{
-    padding-top: 6% !important;
-    padding-bottom: 5% !important;
+    margin-top: 120px;
+    margin-bottom: 96px;
     background-color: #fff;
-    max-width: 960px;
+    max-width: 1120px;
 }
 
 .logo-footer {
@@ -480,7 +467,7 @@ body {
 
 .text-footer {
     padding-bottom: 24px; 
-    font-size: 18px;
+    font-size: 16px;
     color: #767676;
 }
 
@@ -488,11 +475,27 @@ body {
     color: #0b0b0b;
 }
 
+.box-footer {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 0 20%;
+    flex: 0 0 0 20%;
+    max-width: 20%;
+}
+
 .icon-footer {
     padding-right: 12px;
 }
+
 .icon-footer:hover {
     fill: #d7751c;
+}
+
+.MBWay-text {
+    color: #060606;
+}
+
+.MB-text-wrap {
+    min-width: 320px;
 }
 
 /*** FOOTER SECTION***/
@@ -546,7 +549,6 @@ body {
 .mission-title {
     font-weight: 700;
 }
-
 
 .mission-text {
     font-weight: 400;
@@ -646,7 +648,7 @@ body {
 
 .text-help-section {
     font-size: 22px;
-    line-height: 28px;
+    line-height: 32px;
     font-weight: lighter;
     padding: 36px 0 36px;
 }
@@ -917,7 +919,6 @@ body {
     display: block;
     margin-bottom: 5% !important;
     margin-left: 5% !important;
-    alignment: left;
     width: 40% !important;
 }
 
@@ -949,9 +950,7 @@ body {
     margin-right: 4% !important;
 }
 
-/*********************************************/
 /************** HELP PAGE *************/
-/*********************************************/
 
 .img_jumbotron_help{
     background-image: url("../img/banner-como-ajudar.jpg");
@@ -1034,8 +1033,45 @@ body {
     padding-left: 13%;
 }
 
+/**************** CED PAGE ***************/
 
+.img-ced-big-web {
+    width: auto;
+}
 
+.img-ced-big-web:first-child {
+    padding-right: 24px;
+}
 
+.img-ced-big-mob {
+    display: none;
+}
 
+.img-ced-small-mob {
+    display: none;
+}
 
+.img-ced-small-web {
+    padding-left: 24px;
+    margin-top: 24px;
+}
+
+.img-ced-small-web:first-child {
+    padding-left: 0;
+}
+
+.cep-section {
+    margin-top: 80px;
+}
+
+.wrap-ced-text {
+    max-width: 1030px;
+    padding-top: 24px;
+    margin-bottom: 60px;
+}
+
+.wrap-ced-text2 {
+    max-width: 1112px;
+    padding-top: 24px;
+    margin-bottom: 60px;
+}

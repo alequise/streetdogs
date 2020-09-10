@@ -3259,6 +3259,7 @@ input[type="button"].btn-block {
 .dropdown,
 .dropleft {
   position: relative;
+  text-align: center;
 }
 
 .dropdown-toggle {
@@ -3286,18 +3287,16 @@ input[type="button"].btn-block {
   left: 0;
   z-index: 1000;
   display: none;
-  float: left;
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
-  font-size: 1rem;
-  color: #212529;
+  font-size: 16px;
+  color: #535252;
   text-align: left;
   list-style: none;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
+  text-align: center;
 }
 
 .dropdown-menu-left {
@@ -3455,14 +3454,18 @@ input[type="button"].btn-block {
 .dropdown-item {
   display: block;
   width: 100%;
-  padding: 0.25rem 1.5rem;
+  padding: 10px 0 10px;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #535252 !important;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+}
+
+.dropdown-item:first-child {
+  padding: 0px 0 12px;
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
@@ -4328,7 +4331,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1rem;
 }
 
 .nav-link:hover, .nav-link:focus {
@@ -4414,7 +4417,6 @@ input[type="button"].btn-block {
 }
 
 .navbar {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4499,7 +4501,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  padding-right: 20px;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;

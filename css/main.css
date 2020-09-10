@@ -1,4 +1,4 @@
-.header-menu,
+.navbar-wrapper,
 .about-section,
 .adopt-container,
 .help-section,
@@ -12,15 +12,27 @@
     margin-right: auto;
 }
 
+.header-menu {
+    box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
 .header-menu .navbar {
     min-height: 100px;
     padding: 0;
     flex: 1;
+} 
+
+.nav-item-icon:last-child {
+    padding-left: 24px;
+    transition: all .4s ease-in;
 }
+
 .navbar-nav {
     flex: 1;
     align-items: center;
     justify-content: flex-end;
+    padding: 24px 0 24px;
 }
 .nav-item {
     padding-right: 48px;
@@ -28,6 +40,14 @@
 
 .nav-item:last-child {
     padding-right: 0px !important;
+}
+.logo-hover img {
+    transition: all .4s ease-in;
+}
+
+.logo-hover img:hover {
+    filter: opacity(0.85);
+    transform: scale(1.01);
 }
 
 .nav-item:hover {
@@ -52,11 +72,34 @@
     margin-top: 150px;
 }
 
+.pet-card-hover {
+}
+
 .pet-card {
     background-color: white;
     max-width: 282px;
     min-width: 282px;
     min-height: 412px;
+    transition: .5s ease-in-out;
+}
+
+.pet-card:hover {
+    filter: brightness(.5);
+}
+
+.middle {
+    transition: .6s ease-out;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.pet-card-hover:hover .middle {
+    opacity: 1;
 }
 
 .pet-card:first-child {
@@ -105,6 +148,42 @@
         max-width: 100%;
     }
 
+    .header-menu {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color: #fff;
+    }
+    
+    .navbar-collapse {
+        min-height: 667px;
+    }
+
+    .nav-item {
+        padding-right: 0px;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 16px 0 16px;
+    }
+    .nav-link:last-child {
+        padding: 16px 0 32px;
+    }
+    .navbar {
+        position: absolute;
+        padding: 0.5rem 1rem;
+        width: 100%;
+        background-color: #fff;
+        z-index: 900;
+    }
+    
+    .nav-item-icon:last-child {
+        padding-left: 24px;
+    }
+
+    .nav-item-icon {
+        margin-top: 48px;
+    }
+
     .logo-header {
         margin-left: 20px;
     }
@@ -117,6 +196,9 @@
         font-size: 20px;
         padding-top: 24px;
         line-height: 30px;
+    }
+    .carousel {
+        padding-top: 100px;
     }
 
     .carousel-caption {
@@ -280,7 +362,7 @@
     }
 
     .jumbo {
-        margin-top: 18px;
+        padding-top: 100px;
     }
 
     .banner-help-section {

@@ -39,63 +39,47 @@
 
 <!-- NAVBAR  ========================================================= -->
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-nav">
-    <div class="navbar-brand js-scroll-trigger Logo_StreetDogs">
-        <img src="img/logo-street-dogs_90.png">
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    A ASSOCIAÇÃO
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                    <a class="dropdown-item" href="association.html#about">SOBRE NÓS</a>
-                    <a class="dropdown-item" href="association.html#laws">LEGISLAÇÃO</a>
-                    <a class="dropdown-item" href="association.html#partners">PARCEIROS</a>
-                    <a class="dropdown-item" href="#contact">CONTACTOS</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="help.html">COMO AJUDAR</a>
-            </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    ANIMAIS
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                    <a class="dropdown-item" href="#page_top">PARA FAT</a>
-                    <a class="dropdown-item" href="adopt.html">PARA ADOÇÃO</a>
-                    <a class="dropdown-item" href="ced.html">CED</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="index.html#news">NOTÍCIAS</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="shop.html">LOJINHA</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link w3-hover-text-indigo" href="https://www.facebook.com/streetdogspt/?fref=ts"><img src="img/facebook-f-brands.png" srcset="img/facebook-f-brands@2x.png 2x, img/facebook-f-brands@3x.png 3x" class="facebook-f-brands"></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link w3-hover-text-purple" href="https://www.instagram.com/streetdogspt/"><img src="img/insta.png" srcset="img/insta@2x.png 2x, img/insta@3x.png 3x" class="insta"></a>
-            </li>
-            <li>
-                <a class="navbar-brand js-scroll-trigger" style="background-color: transparent;" href="help.html">
-                    <button class="btn my-2 my-sm-0 btn_doar" type="submit"><img src="img/hand-holding-heart-solid-1.png" srcset="img/hand-holding-heart-solid-1@2x.png 2x, img/hand-holding-heart-solid-1@3x.png 3x" class="hand-holding-heart-solid-1"> DOAR</button>
-                </a>
-            </li>
-        </ul>
-    </div>
-</nav>
-
+<header class="header-menu">
+    <nav class="navbar navbar-wrapper navbar-expand-lg navbar-light">
+      <div class="navbar-brand js-scroll-trigger logo-header">
+        <a class="logo-hover" href="index.html"><img src="./img/logo/LogoStreetdogs.jpg"></a> 
+      </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="navbar-toggler-icon"src="./img/icon/menu.svg" alt="ícone-menu">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">HOME</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ANIMAIS
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                        <a class="dropdown-item" href="fat.html">PARA FAT</a>
+                        <a class="dropdown-item" href="adopt.html">PARA ADOÇÃO</a>
+                        <a class="dropdown-item" href="ced.html">CED</a>
+                    </div>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="help.html">COMO AJUDAR</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link" href="association.html">A ASSOCIAÇÃO</a>                        
+                  </li>
+                
+                  <li class="nav-item">
+                      <a class="nav-link" href="contact.html">CONTACTO</a>
+                  </li>
+                  <li class="nav-item row">
+                      <a class="nav-item-icon"  href="https://www.facebook.com/streetdogspt/?fref=ts" target="_blank"><img src="./img/icon/facebook.svg" alt="icone do facebook" class="size-icon"></a>
+                      <a class="nav-item-icon" href="https://www.instagram.com/streetdogspt/" target="_blank"><img src="./img/icon/instagram-icon.svg" alt="icone do instagram" class="size-icon"></a>
+                  </li>
+              </ul>
+          </div>
+    </nav>
+  </header>
 
 <div class="jumbotron jumbotron-fluid img_jumbotron_adopt jumbo">
     </br>
@@ -104,7 +88,6 @@
         <p class="breadcrumbs"><a href="index.html">Home</a> > Queres ser a minha FAT?</p>
     </div>
 </div>
-
 
 <section class="page-section bg-primary about" id="about">
     <div class="container">

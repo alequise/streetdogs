@@ -6,7 +6,9 @@
 .association-section,
 .mission-container,
 .partners-section,
-.cep-section {
+.cep-section,
+.pet-description,
+.info-img-container {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
@@ -60,19 +62,8 @@
     color: white;
 }    
 
-.position-relative .button-donate {
-    color: white;
-}
-
-.position-relative {
-    position: relative;
-}
-
 .family-container {
     margin-top: 150px;
-}
-
-.pet-card-hover {
 }
 
 .pet-card {
@@ -80,31 +71,48 @@
     max-width: 282px;
     min-width: 282px;
     min-height: 412px;
-    transition: .5s ease-in-out;
+    transition: .4s ease-in;
 }
 
 .pet-card:hover {
-    filter: brightness(.5);
+    filter: brightness(.6);
+}
+
+.pet-card-container {
+    position: relative;
 }
 
 .middle {
-    transition: .6s ease-out;
-    opacity: 0;
+    transition: .4s ease-out;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    z-index: 300;
+    display: none;
+    top: 45%;
+    left: 15%;
 }
 
-.pet-card-hover:hover .middle {
-    opacity: 1;
+.btn_card {
+    color: #ffffff;
+    background-color: #ef7f19;
+    border-radius: 0px !important;
+    min-width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 16px 24px 16px;
+}
+
+.row-inline {
+    display: flex;
+}
+
+.pet-card-container:hover .middle {
+    display: block;
 }
 
 .pet-card:first-child {
     margin-left: 0;
 }
+
 .pet-image {
     max-width: 100%;
     background-position: center;
@@ -143,7 +151,8 @@
     .family-text-container,
     .contact-wrap,
     .help_title,
-    .box-help-text {
+    .box-help-text,
+    .collapsible2 {
         margin: 0 20px;
         max-width: 100%;
     }
@@ -349,7 +358,6 @@
 /************* HELP PAGE *************/
 
 @media (max-width: 768px) {
-
     .jumbo,
     .text-help-section,
     .help_tit3, 
@@ -588,3 +596,64 @@
             padding-top: 24px;
             }
     }
+
+ /************** ADOPT PAGE *************/   
+
+    @media only screen and (max-width: 768px){
+        .collapsible2 {
+            width: 100%;
+            max-width: 330px;
+            font-size: 14px;
+        }
+        .collapsible2:first-child {
+            margin-top: 24px;
+        }
+    
+    }
+
+
+ /************** FAT PAGE *************/ 
+
+
+ @media only screen and (max-width: 768px) {
+    .text-left-info,
+    .family-info-container,
+    .text-info-adpt {
+        margin: 0 20px;
+        max-width: 100%;
+    }
+
+    .info-mobile-column {
+        display: block;
+    }
+    .image-info-section img {
+        max-width: auto;
+        max-height: 360px;
+    }
+    .leftside-info, .image-right {
+        display: none;
+    }
+
+    .family-info-container {
+        max-width: 355px;
+    }
+
+    .image-info-section {
+        margin-top: 36px;
+    }
+
+    .text_info {
+        min-width: 300px;
+    }
+    .image-info-section {
+        min-width: 325px;  
+        min-height: 375px; 
+        width: 100%; 
+    }
+    .contact_social {
+        margin-top: 48px;
+    }
+
+    
+}
+

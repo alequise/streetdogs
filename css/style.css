@@ -638,9 +638,14 @@ body {
 }
 
 .breadcrumbs{
+    transition: .4s ease-in;
     font-size: 16px;
     text-align: left;
     color: #a7a7a7;
+}
+
+.breadcrumbs a:hover {
+    color: #818181;
 }
 
 .img-web-help {
@@ -887,6 +892,7 @@ body {
     font-size: 17px;
     background-color: #fff;
 }
+
 .collapsible2:focus {
     border-color: #ef7f19;
 }
@@ -926,6 +932,13 @@ body {
     margin-bottom: 5% !important;
     margin-left: 5% !important;
     width: 40% !important;
+}
+
+.adopt-pad {
+    margin-top: 96px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f2f2f2;
 }
 
 .adopt_text{
@@ -1081,3 +1094,64 @@ body {
     padding-top: 24px;
     margin-bottom: 60px;
 }
+
+/**************** FAT PAGE ***************/
+
+.max-fat-text {
+    max-width: 92%;
+}
+
+.info-img-container {
+    margin-top: 48px;
+    margin-bottom: 128px;
+}
+
+.image-info-section {
+    min-width: 600px;  
+    min-height: 625px;  
+    margin: 0 0 12px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text_info{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 32px;
+    text-align: left;
+    color: #0b0b0b;
+    padding-top: 32px;
+    min-width: 600px;
+}
+
+.text-info-btn {
+    font-size: 16px;
+    line-height: 24px;
+    color: #818181;
+    padding: 36px 0 24px;
+
+}
+
+.leftside-info {
+    min-width: 550px;
+    max-width: 600px;
+}
+
+.family-info-container {
+    max-width: 650px;
+}
+
+.social-flex {
+    display: flex;
+}
+
+.pad-icon {
+    padding-right: 36px ;
+}
+
+.info-mobile-column {
+    display: none;
+}
+

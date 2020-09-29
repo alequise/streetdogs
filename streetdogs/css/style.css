@@ -61,10 +61,6 @@ body {
     background-color: #d7751c !important;
 }
 
-.size-icon {
-  font-size: 2rem;
-  object-fit: contain;
-}
 
 .focus-header {
     color: #ef7f19 !important;

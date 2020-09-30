@@ -53,8 +53,9 @@
       </section>
 
       <!-- Adopt Section  ================================================== -->
+
       <section class="page-section adopt" id="adopt">
-        <div class="adopt-container width--forced">
+        <div class="adopt-container">
           <div class="justify-content-center">
             <h2 class="adopt_tit">Animais para adoção responsável</h2>
             <div class="text-center">
@@ -62,50 +63,70 @@
             </div>
           </div>
           <div class="row row--column">
-                <article class="pet-card">
-                  <div class="pet-image" style="background-image: url(./img/pet-image-grumpy-cat.jpg);"></div>
-                  <div class="pet-text-container">
-                    <h1 class="pet-name">Jack</h1>
-                    <div class="pet-description">
+            <article class="pet-card-container">
+              <div class="middle">
+                <a class="btn btn_card" target="_blank" href="info.html">VER MAIS</a>
+              </div> 
+              <div class="pet-card">                
+                <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
+                <div class="pet-text-container">
+                  <h1 class="pet-name">Jack</h1>
+                  <div class="pet-description">
                       <span class="pet-age"><strong>Idade:</strong> 7 anos</span>
                       <span class="division-description">|</span>
                       <span class="pet-genre"><strong>Gênero:</strong> Macho</span> 
-                    </div>
                   </div>
-                </article>
-                <article class="pet-card">
-                  <div class="pet-image" style="background-image: url(./img/pet-image-grumpy-cat.jpg);"></div>
-                  <div class="pet-text-container">
-                    <h1 class="pet-name">Jack</h1>
-                    <div class="pet-description">
+                </div>
+              </div>
+            </article>
+            <article class="pet-card-container">
+              <div class="middle">
+                <a class="btn btn_card" target="_blank" href="#">VER MAIS</a>
+              </div> 
+              <div class="pet-card">                
+                <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
+                <div class="pet-text-container">
+                  <h1 class="pet-name">Jack</h1>
+                  <div class="pet-description">
                       <span class="pet-age"><strong>Idade:</strong> 7 anos</span>
                       <span class="division-description">|</span>
                       <span class="pet-genre"><strong>Gênero:</strong> Macho</span> 
-                    </div>
                   </div>
-                </article>
-                <article class="pet-card">
-                  <div class="pet-image" style="background-image: url(./img/pet-image-grumpy-cat.jpg);"></div>
-                  <div class="pet-text-container">
-                    <h1 class="pet-name">Jack</h1>
-                    <div class="pet-description">
+                </div>
+              </div>
+            </article>
+            <article class="pet-card-container">
+              <div class="middle">
+                <a class="btn btn_card" target="_blank" href="#">VER MAIS</a>
+              </div> 
+              <div class="pet-card">                
+                <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
+                <div class="pet-text-container">
+                  <h1 class="pet-name">Jack</h1>
+                  <div class="pet-description">
                       <span class="pet-age"><strong>Idade:</strong> 7 anos</span>
                       <span class="division-description">|</span>
                       <span class="pet-genre"><strong>Gênero:</strong> Macho</span> 
-                    </div>
                   </div>
-                </article>
-                <article class="pet-card">
-                  <div class="pet-image" style="background-image: url(./img/pet-image-grumpy-cat.jpg);"></div>
-                  <div class="pet-text-container">
-                    <h1 class="pet-name">Jack</h1>
-                    <div class="pet-description">
+                </div>
+              </div>
+            </article>
+            <article class="pet-card-container">
+              <div class="middle">
+                <a class="btn btn_card" target="_blank" href="#">VER MAIS</a>
+              </div> 
+              <div class="pet-card">                
+                <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
+                <div class="pet-text-container">
+                  <h1 class="pet-name">Jack</h1>
+                  <div class="pet-description">
                       <span class="pet-age"><strong>Idade:</strong> 7 anos</span>
                       <span class="division-description">|</span>
                       <span class="pet-genre"><strong>Gênero:</strong> Macho</span> 
-                    </div>
                   </div>
-                </article>
+                </div>
+              </div>
+            </article>
           </div>
           <div class="w3-center">
             <a class="btn btn_adopt" href="adopt.html">VER TODOS</a>

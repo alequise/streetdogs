@@ -65,6 +65,16 @@ body {
 .size-icon:hover {
     fill: #d7751c;
 }
+.size-icon-footer {
+    height: 28px;
+    width: 28px;
+    object-fit: contain;
+    fill: #ef7f19;
+    margin-right: 12px;
+}
+.size-icon-footer:hover {
+    fill: #d7751c;
+}
 
 /*********************************************/
 /*****************BANNER**********************/
@@ -501,7 +511,7 @@ body {
 }
 
 .icon-footer:hover {
-    fill: #d7751c;
+    fill: #ef7f19;
 }
 
 .MBWay-text {

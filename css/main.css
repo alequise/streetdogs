@@ -276,6 +276,10 @@ html {
     .row--footer {
         align-items: flex-start;
     }
+
+    .row-pet-card {
+        flex-direction: column;
+    }
         
     .pet-card {
         background-color: white;
@@ -546,15 +550,15 @@ html {
     }
 
             
-        .ilustra-contact-web {
-        display: none;
-        }
+    .ilustra-contact-web {
+    display: none;
+    }
 
-        .ilustra-contact-mobile {
-        display: block;
-        width: auto;
-        object-fit: scale-down;
-        }
+    .ilustra-contact-mobile {
+    display: block;
+    width: auto;
+    object-fit: scale-down;
+    }
 
 
     .cep-section {
@@ -569,28 +573,30 @@ html {
 
     .gallery-ced-section {
         margin-top: 24px;
+        display: flex;
+        flex-direction: column;
     }
 
-                
-        .img-ced-big-web { 
-            display: none;
-            }
+            
+    .img-ced-big-web { 
+        display: none;
+        }
 
-        .img-ced-big-mob {
-            display: block;
-            width: auto;
-            object-fit: scale-down;
-            padding-top: 24px;
-            }
+    .img-ced-big-mob {
+        display: block;
+        width: auto;
+        object-fit: scale-down;
+        padding-top: 24px;
+        }
 
-        .img-ced-small-web { 
-            display: none;
-            }
+    .img-ced-small-web { 
+        display: none;
+        }
 
-        .img-ced-small-mob {
-            display: block;
-            width: auto;
-            object-fit: scale-down;
-            padding-top: 24px;
-            }
+    .img-ced-small-mob {
+        display: block;
+        width: auto;
+        object-fit: scale-down;
+        padding-top: 24px;
+        }
 }

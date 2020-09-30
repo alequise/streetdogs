@@ -58,16 +58,16 @@ body {
 }
 
 .size-icon {
-  height: 36px;
-  width: 36px;
+  height: 36px !important;
+  width: 36px !important;
   object-fit: contain;
 }
 .size-icon:hover {
-    fill: #d7751c;
+    fill: #ef7f19;
 }
 .size-icon-footer {
-    height: 28px;
-    width: 28px;
+    height: 28px !important;
+    width: 28px !important;
     object-fit: contain;
     fill: #ef7f19;
     margin-right: 12px;
@@ -640,7 +640,13 @@ body {
 /****************** HELP PAGE ****************/
 
 .jumbo{
-    margin-top: 72px;
+    margin-top: 144px;
+}
+
+.adopt-section {
+    margin-top: 60px;
+    padding: 60px 0 72px;
+    background-color: #f6f6f6;
 }
 
 .img_jumbotron_associacao{
@@ -882,25 +888,17 @@ body {
     display: none;
 }
 
-/************** ADOPT PAGE *************/
-
-.img_jumbotron_adopt{
-    background-image: url("../img/banner-animais.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    padding-bottom: 2%;
-}
+/************** FAT PAGE *************/
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible2 {
     background-color: #f9f9f9;
-    color: black;
+    color:#818181;
     cursor: pointer;
     padding: 18px;
     width: 100%;
     border: 1px;
-    border-color: #878787;
+    border-color: #818181;
     border-style: solid;
     text-align: center;
     outline: none;
@@ -1063,6 +1061,10 @@ body {
 
 .img-ced-big-web {
     width: auto;
+}
+
+.gallery-ced-section {
+    display: flex;
 }
 
 .img-ced-big-web:first-child {

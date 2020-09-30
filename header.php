@@ -14,21 +14,21 @@
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
                       <a class="dropdown-item" href="fat.php">PARA FAT</a>
-                      <a class="dropdown-item" href="adopt.html">PARA ADOÇÃO</a>
+                      <a class="dropdown-item" href="adopt.php">PARA ADOÇÃO</a>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="help.html">COMO AJUDAR</a>
+                  <a class="nav-link" href="help.php">COMO AJUDAR</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="ced.html">CED</a>
+                  <a class="nav-link" href="ced.php">CED</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="association.html">A ASSOCIAÇÃO</a>                        
+                  <a class="nav-link" href="association.php">A ASSOCIAÇÃO</a>                        
                 </li>
               
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.html">CONTACTO</a>
+                  <a class="nav-link" href="contact.php">CONTACTO</a>
                 </li>
                 <li class="nav-item row">
                   <a class="nav-item-icon"  href="https://www.facebook.com/streetdogspt/?fref=ts" target="_blank">

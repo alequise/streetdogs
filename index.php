@@ -30,8 +30,6 @@
   </head>
 
   <body id="page_top">
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v4.0"></script>
 
 <!-- NAVBAR  ========================================================= -->
 
@@ -65,7 +63,7 @@
           <div class="row row--column">
             <article class="pet-card-container">
               <div class="middle">
-                <a class="btn btn_card" target="_blank" href="info.html">VER MAIS</a>
+                <a class="btn btn_card" target="_blank" href="info.php">VER MAIS</a>
               </div> 
               <div class="pet-card">                
                 <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
@@ -80,7 +78,7 @@
             </article>
             <article class="pet-card-container">
               <div class="middle">
-                <a class="btn btn_card" target="_blank" href="#">VER MAIS</a>
+                <a class="btn btn_card" target="_blank" href="info.php">VER MAIS</a>
               </div> 
               <div class="pet-card">                
                 <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
@@ -96,7 +94,7 @@
             </article>
             <article class="pet-card-container">
               <div class="middle">
-                <a class="btn btn_card" target="_blank" href="#">VER MAIS</a>
+                <a class="btn btn_card" target="_blank" href="info.php">VER MAIS</a>
               </div> 
               <div class="pet-card">                
                 <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
@@ -112,7 +110,7 @@
             </article>
             <article class="pet-card-container">
               <div class="middle">
-                <a class="btn btn_card" target="_blank" href="#">VER MAIS</a>
+                <a class="btn btn_card" target="_blank" href="info.php">VER MAIS</a>
               </div> 
               <div class="pet-card">                
                 <div class="pet-image" style="background-image: url(./img/ritinha-card.jpg);"></div>
@@ -128,7 +126,7 @@
             </article>
           </div>
           <div class="w3-center">
-            <a class="btn btn_adopt" href="adopt.html">VER TODOS</a>
+            <a class="btn btn_adopt" href="adopt.php">VER TODOS</a>
           </div>
         </div>
       </section>

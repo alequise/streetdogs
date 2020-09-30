@@ -36,48 +36,38 @@
     <?php include("header.php");?>
 
     <main class="main">
-
         <div class="jumbo">
             </br>
             <div class="container">
-                <p class="breadcrumbs"><a href="index.php">Home</a> > Animais para FAT</p>
-                <h1 class="jumbotron_tit">Animais para FAT</h1>
+                <p class="breadcrumbs"><a href="index.html">Home</a> > Animais para Adoção</p>
+                <h1 class="jumbotron_tit">Animais para Adoção</h1>
             </div>
         </div>
-
-        <section class="help-section">
-            <div class="container">
-                <p class="text-help-section max-fat-text">As famílias de acolhimento são muito importantes para podermos continuar este projecto, pois sem ter onde colocar o animal, não nos é possível retira-lo da rua. Além de todo o amor e alegria que receberá por acolher um dos nossos animais, ser família de acolhimento ​é também uma oportunidade de ter a experiência de como seria ter (mais) um animal de estimação, sem ter a responsabilidade de uma futura adoção.</p>
-            </div>
-        </section>
+        
+    <section class="help-section">
+        <div class="container">
+            <p class="text-help-section">A StreetDogs não dispõe de espaço físico para acolher animais por isso temos de procurar famílias que estejam dipostas a adotar, de forma muito responsável, os animais que resgatamos. Ao adotar um dos nossos patudos, além de nos estar ajudar a salvar mais uma vida animal, está a dar um lar e uma família a quem têm tanto para dar em troca.</p>
+        </div>
+    </section>
 
     <div class="container">
-        <button class="collapsible2">SER FAMÍLIA DE ACOLHIMENTO TEMPORÁRIO (FAT)</button>
+        <button class="collapsible2">QUERO ADOTAR? O QUE VOCÊ DEVE SABER</button>
         <div class="content">
             </br>
-            <p><b>O que são?</b><br>
-                São famílias que se predispõem a acolher um animal na sua casa até ser adotado.<br>
-                A família de acolhimento é responsável pela sua segurança, bem estar e por lhe dar todo o amor e carinho possível.<br>
-                <br>
-                <b>Tenho custos em ser família de acolhimento?</b><br>
-                Todos os custos veterinários e de alimentação continuarão a ser da nossa responsabilidade.<br>
-                <br>
-                <b>E se deixar de o poder acolher?</b><br>
-                No caso de a família de acolhimento deixar de poder acolher o animal mesmo antes de ser adotado, responsabilizamo-nos por ir buscar o animal e procurar nova familia de acolhimento.<br>
-                <br>
-                <b>Estando o animal em família de acolhimento, deixam de procurar adotante?</b><br>
-                Enquanto estiver em familia de acolhimento, comprometemo-nos a continuar a divulga-lo para sua adoção. Não é do nosso interesse (nem do interesse de nenhum dos intervenientes) que os animais fiquem muito tempo em famílias de acolhimento temporário, mas estas terão prioridade no caso de os pretenderem adotar.<br>
-                <br>
-                <b>Vantagens de ser família de acolhimento</b><br>
-                As famílias de acolhimento são muito importantes para podermos continuar este projecto, pois sem ter onde colocar o animal, não nos é possível retira-lo da rua.<br>
-                Além de todo o amor e alegria que receberá por acolher um dos nossos animais, ser família de acolhimento ​é também uma oportunidade de ter a experiência de como seria ter (mais) um animal de estimação, sem ter a responsabilidade de uma futura adoção.<br>
-                Ao ser FAT de um animal está a aumentar a probabilidade de sucesso da sua adopção de diversas formas:<br>
-                - Ao dar carinho, atenção e estabilidade está a ajudá-lo a reconstruir a sua confiança nos seres humanos.<br>
-                - Ao sociabilizar o cão e ensinar-lhe as regras básicas da casa e de obediência, o cão ir-se-á tornar um candidato mais apelativo para os potenciais adoptantes.<br>
-                - Alguns animais podem ter vivido nas ruas, onde nunca se tiveram de reger por uma rotina ou horário. Ao levar um cão para ir viver, durante uns tempos, para sua casa vai assistir à adaptação do animal a um ambiente regrado, por vezes, pela primeira vez.<br>
-                <br>
-                Apesar disso, ser familia de acolhimento é uma decisão que deve ser tomada com responsabilidade e não de animo leve, pois a maioria das vezes contamos com essa família para retirar um animal da rua e não existe um plano B.</p>
+            <p>A adoção de animais é uma forma de contribuir para que este quadro triste se reverta.  Contudo a adoção dever ser responsável, com consciência das necessidades e direitos do animal a ser adotado:<br>
+                1 – A família toda deve consentir, respeitar e, se possível, colaborar para cuidar do novo ente da casa. Se todos dividirem as tarefas no trato do animal ele estará muito bem acolhido.<br>
+                2 – Esteja ciente dos custos. Os animais precisam de ração e água à disposição, de um espaço adequado para brincar, não devem ser acorrentados e precisam regularmente de atendimento veterinário.<br>
+                3 – Não procrie seu animal. A castração é um ato de amor, ela contribui para o controle populacional dos animais, auxilia no comportamento, evita fugas, doenças como câncer e piometra, acaba com disputa territorial, brigas e xixi fora do lugar.<br>
+                4 – Animais não são descartáveis. Quando for tirar férias, providencie algum lugar para seu amigo ficar ou alguém que vá até a sua casa para cuidar dele. Existem muitos hotéis pets e cuidadores para te ajudar. Além disso, caso mude de país, cheque a legislação. A maioria dos lugares permitem a entrada de animais domésticos com seus donos e as companhias aéreas fazem esse transporte regularmente.<br>
+                4 – Gatos precisam de proteção dobrada. Telas e redes de proteção são indispensáveis para que o animal não caia. Além disso, não permita as “voltinhas noturnas”. O animal pode procriar, ser envenenado, se perder ou ser atropelado.<br>
+                3 – Em caso de cães, passeios são imprescindíveis e devem ser feitos antes das 10h e depois das 16h, ou o sol pode queimar suas patinhas. Lembre-se, as necessidades do animal devem ser recolhidas.<br>
+                5 – Eduque de forma carinhosa seu animal. É necessário impor limites, conforme orientação do veterinário responsável, de forma firme, mas nunca cruel. Lembre-se, filhotes requerem atenção dobrada. Nessa fase de desenvolvimento, é preciso paciência dobrada.</p>
         </div>
+        <button class="collapsible2">REQUISITOS PARA ADOÇÃO</button>
+                <div class="content">
+                    </br>
+                    <p>A adoção de animais é uma forma de contribuir para que este quadro triste se reverta.  Contudo a adoção dever ser responsável, com consciência das necessidades e direitos do animal a ser adotado:<br>
+                </div>
         <script>
             var coll = document.getElementsByClassName("collapsible2");
             var i;
@@ -94,7 +84,6 @@
             }
         </script>
     </div>
-
     <section class="adopt-section adopt-pad" id="adopt">
         <div class="adopt-container">
           <div class="row row-pet-card">
@@ -285,12 +274,12 @@
           </div>
         </section>
 
-<?php include("footer.php"); ?>
-
-      <!-- Custom scripts for this template -->
-      <script src="js/script.js"></script>
-      <script src="js/creative.min.js"></script>
-
-      </main>
-      </body>
-  </html>
+<?php include("footer.php"); ?>        
+  
+    <!-- Custom scripts for this template -->
+    <script src="js/script.js"></script>
+    <script src="js/creative.min.js"></script>
+        
+    </main>
+    </body>
+</html>

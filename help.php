@@ -1,80 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt_PT">
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="animal protection">
+      <meta name="author" content="Juliana Fortes">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="animal protection">
-    <meta name="author" content="Juliana Fortes">
+      <title>StreetDogs | Associação de Protecção Animal</title>
+      <link rel="shortcut icon" href="img/icon.png" />
 
-    <title>StreetDogs | Associação de Protecção Animal</title>
-    <link rel="shortcut icon" href="img/icon.png" />
+      <!-- Font Awesome Icons -->
+      <script src="https://kit.fontawesome.com/3f2fb249a0.js" crossorigin="anonymous"></script>
 
-    <!-- Font Awesome Icons -->
-    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
 
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- Plugin CSS -->
+      <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+      <!-- Theme CSS - Includes Bootstrap -->
+      <link href="css/creative.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/w3.css">
+  </head>
 
-    <!-- Theme CSS - Includes Bootstrap -->
-    <link href="css/creative.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/w3.css">
-</head>
+  <body id="page_top">
 
-<body id="page_top">
-<div id="fb-root"></div>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v4.0"></script>
+<!-- NAVBAR  ========================================================= -->
 
-<header class="header-menu">
-  <nav class="navbar navbar-wrapper navbar-expand-lg navbar-light">
-    <div class="navbar-brand js-scroll-trigger logo-header">
-      <a class="logo-hover" href="index.html"><img src="./img/logo/LogoStreetdogs.jpg"></a> 
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <img class="navbar-toggler-icon"src="./img/icon/menu.svg" alt="ícone-menu">
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#index.html">HOME</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      ANIMAIS
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                      <a class="dropdown-item" href="fat.html">PARA FAT</a>
-                      <a class="dropdown-item" href="adopt.html">PARA ADOÇÃO</a>
-                      <a class="dropdown-item" href="ced.html">CED</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="help.html">COMO AJUDAR</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link" href="association.html">A ASSOCIAÇÃO</a>                        
-                </li>
-              
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">CONTACTO</a>
-                </li>
-                <li class="nav-item row">
-                    <a class="nav-item-icon"  href="https://www.facebook.com/streetdogspt/?fref=ts" target="_blank"><img src="./img/icon/facebook.svg" alt="icone do facebook" class="size-icon"></a>
-                    <a class="nav-item-icon" href="https://www.instagram.com/streetdogspt/" target="_blank"><img src="./img/icon/instagram-icon.svg" alt="icone do instagram" class="size-icon"></a>
-                </li>
-            </ul>
-        </div>
-  </nav>
-</header>
+    <?php include("header.php");?>
 
 <main class="main">
   <div class="jumbo">
@@ -151,51 +110,7 @@
 </main>
 
 <!-- Contact Section -->
-<section class="contact-wrap container" id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="box-footer">
-        <img class="logo-footer" src="./img/logo/LogoStreetdogs@2x.jpg">
-      </div>
-      <div class="box-footer">              
-        <h3 class="contact_social">A ASSOCIAÇÃO</h3>
-        <div class="text-footer">
-          <img class="icon-footer size-icon" src="./img/icon/map-marker-alt-solid-2.svg" alt="ícone de mapa">Barcelos, Portugal
-        </div>
-        <div class="text-footer">
-          <a href="mailto:geral@streetdogs.pt" target="_blank"><img alt="ícone de email" src="./img/icon/envelope-regular.svg" class="icon-footer size-icon">geral@streetdogs.pt</a>
-        </div>
-      </div>
-      <div class="box-footer">
-          <h3 class="contact_social">SIGA-NOS</h3>
-          <div class="text-footer">
-          <a href="https://www.instagram.com/streetdogspt/" target="_blank"><img alt="ícone do Instagram" src="./img/icon/instagram-icon.svg" class="icon-footer size-icon">streetdogspt</a></br>
-          </div>
-          <div class="text-footer">
-            <a href="https://www.facebook.com/streetdogspt/?fref=ts" target="_blank"><img alt="ícone do Facebook" src="./img/icon/facebook.svg" class="icon-footer size-icon">/streetdogspt</a></br>
-          </div>
-      </div>
-      <div class="box-footer MB-text-wrap">
-        <h3 class="contact_social">SIGA-NOS</h3>
-        <div class="MBWay-text">
-        <img alt="ícone do MBWay" src="./img/icon/MBWay.png" class="icon-footer"><a href="tel:+351 968 834 244">968 834 244</a></br></br>
-        </div>
-        <div class="text-footer">
-          <p class="MBWay-text">IBAN PT50 0033 0000 4553078518705</p></br>
-        </div>
-    </div>
-    </div>
-</section>
-
-    <!-- Footer -->
-    <footer class="footer w3-center">
-      <div class="container">
-        <div class="small text-center text-muted">Copyright &copy; 2019 
-          <a class="link-portfolio" href="https://www.linkedin.com/in/julifortes/" style="text-decoration:none">JULIANA FORTES</a>&nbsp & &nbsp
-          <a class="link-portfolio" href="https://lystrevisan.com/" style="text-decoration:none">LYS TREVISAN</a></div>
-        <div class="small text-center text-muted">All rights reserved</div>
-      </div>
-    </footer>
+<?php include("footer.php"); ?>
 
 <!-- Custom scripts for this template -->
 <script src="js/script.js"></script>

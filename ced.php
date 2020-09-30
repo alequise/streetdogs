@@ -65,14 +65,14 @@
                 <img class="img-ced-small-web" src="./img/ced/web/foto5.jpg" alt="Imagem de casinha para gatos">
                 <img class="img-ced-small-web" src="./img/ced/web/foto4.jpg" alt="Imagem de gatutos para adoção">
                 <img class="img-ced-small-web" src="./img/ced/web/foto3.jpg" alt="Imagem de casinha para gatos">
-                <div class="row-mob">
-                  <img class="img-ced-small-mob" src="./img/ced/mobile/foto6.jpg" alt="Imagem de gatutos para adoção">
-                  <img class="img-ced-small-mob" src="./img/ced/mobile/foto5.jpg" alt="Imagem de casinha para gatos">
-                </div>
-                <div class="row-mob">
-                  <img class="img-ced-small-mob" src="./img/ced/mobile/foto4.jpg" alt="Imagem de gatutos para adoção">
-                  <img class="img-ced-small-mob" src="./img/ced/mobile/foto3.jpg" alt="Imagem de casinha para gatos">
-                </div>
+            <div class="row-mob">
+              <img class="img-ced-small-mob" src="./img/ced/mobile/foto6.jpg" alt="Imagem de gatutos para adoção">
+              <img class="img-ced-small-mob" src="./img/ced/mobile/foto5.jpg" alt="Imagem de casinha para gatos">
+            </div>
+            <div class="row-mob">
+              <img class="img-ced-small-mob" src="./img/ced/mobile/foto4.jpg" alt="Imagem de gatutos para adoção">
+              <img class="img-ced-small-mob" src="./img/ced/mobile/foto3.jpg" alt="Imagem de casinha para gatos">
+            </div>
             </div>
         </div>
     </section>

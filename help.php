@@ -123,7 +123,7 @@
               </div>
           </div>
       </div>
-      <div class="row">
+      <div class="row help-row-text">
         <div class="double-text-container">
             <div class="text-double-right">
                 <h2 class="double-title">Ser FAT <span>(Família de Acolhimento Temporário)</span></h2>

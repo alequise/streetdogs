@@ -158,10 +158,7 @@ html {
 .wrap-association-text {
     padding-right: 36px;
 }
-.row-mob {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 @media (max-width: 768px) {
     .about-section,
@@ -560,7 +557,6 @@ html {
     object-fit: scale-down;
     }
 
-
     .cep-section {
         margin: 0 20px;
         max-width: 100%;
@@ -577,8 +573,10 @@ html {
         flex-direction: column;
     }
             
-    .img-ced-big-web { 
-        display: none;
+    .row-mob {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 
     .img-ced-big-mob {
@@ -588,14 +586,22 @@ html {
         padding-top: 24px;
     }
 
-    .img-ced-small-web { 
-        display: none;
-        }
-
     .img-ced-small-mob {
         display: block;
         width: auto;
         object-fit: scale-down;
         padding-top: 24px;
+    }
+
+    .img-ced-big-web { 
+        display: none;
+    }
+
+    .img-ced-small-web { 
+        display: none;
+        }
+
+    .help-row-text {
+        flex-direction: column;
     }
 }

@@ -72,8 +72,7 @@
                 <div class="pet-text-container">
                   <h1 class="pet-name">Jack</h1>
                   <div class="pet-description">
-                      <span class="pet-age"><strong>Idade:</strong> 7 anos</span>
-                      <span class="division-description">|</span>
+                      <span class="pet-age"><strong>Idade:</strong> 7 anos</span> <br>
                       <span class="pet-genre"><strong>Gênero:</strong> Macho</span> 
                   </div>
                 </div>

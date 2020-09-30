@@ -1,5 +1,5 @@
-<header class="header-menu width--forced">
-  <nav class="navbar navbar-wrapper navbar-expand-lg navbar-light">
+<header class="header-menu">
+  <nav class="navbar navbar-wrapper navbar-expand-lg navbar-light width--forced">
     <div class="navbar-brand js-scroll-trigger logo-header">
         <a class="logo-hover" href="index.php"><img src="./img/logo/LogoStreetdogs.jpg"></a> 
     </div>
@@ -8,9 +8,6 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#page_top">HOME</a>
-                </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       ANIMAIS

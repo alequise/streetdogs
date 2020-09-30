@@ -19,7 +19,13 @@ html {
 }
 
 .header-menu {
-    background-color: #fff;
+    position: fixed;
+    background-color: #ffffff;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.15);
 }
 
 .header-menu .navbar {
@@ -132,7 +138,7 @@ html {
     width: 282px;
 }
 .pet-text-container {
-    padding: 0 18px;
+    padding: 0 18px 18px;
 }
 
 .division-description {

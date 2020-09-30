@@ -576,18 +576,17 @@ html {
         display: flex;
         flex-direction: column;
     }
-
             
     .img-ced-big-web { 
         display: none;
-        }
+    }
 
     .img-ced-big-mob {
         display: block;
         width: auto;
         object-fit: scale-down;
         padding-top: 24px;
-        }
+    }
 
     .img-ced-small-web { 
         display: none;
@@ -598,5 +597,5 @@ html {
         width: auto;
         object-fit: scale-down;
         padding-top: 24px;
-        }
+    }
 }

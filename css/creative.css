@@ -120,6 +120,7 @@ ul ul,
 ol ul,
 ul ol {
   margin-bottom: 0;
+  padding-inline-start: 20px;
 }
 
 dt {
@@ -376,7 +377,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 44px;
+  font-size: 42px;
 }
 
 h2, .h2 {
@@ -3457,7 +3458,7 @@ input[type="button"].btn-block {
   padding: 10px 0 10px;
   clear: both;
   font-weight: 400;
-  color: #535252 !important;
+  color: #535252;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3471,13 +3472,13 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #f8f8f8;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #f4623a;
+  background-color: #ef7f19;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4501,12 +4502,12 @@ input[type="button"].btn-block {
 }
 
 .navbar-toggler {
-  padding-right: 20px;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  padding-right: 32px;
 }
 
 .navbar-toggler:hover, .navbar-toggler:focus {
@@ -6718,7 +6719,6 @@ a.close.disabled {
   bottom: 200px;
   left: 15%;
   z-index: 10;
-  padding-top: 20px;
   padding-bottom: 20px;
   color: #fff;
   text-align: center;
@@ -10255,7 +10255,7 @@ button.bg-dark:focus {
 }
 
 .font-weight-normal {
-  font-weight: 400 !important;
+  font-weight: 400;
 }
 
 .font-weight-medium {
